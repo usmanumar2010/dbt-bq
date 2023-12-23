@@ -1,0 +1,42 @@
+[0m20:15:33.325232 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1054e7520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10730e9e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10730ed40>]}
+
+
+============================== 20:15:33.344877 | 94991ad4-86e0-480a-b256-89ea1e4d35c3 ==============================
+[0m20:15:33.344877 [info ] [MainThread]: Running with dbt=1.6.9
+[0m20:15:33.345869 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/Users/usmanumar/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:15:33.347043 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/Users/usmanumar/.dbt')}
+[0m20:15:33.347716 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m20:16:02.984707 [debug] [MainThread]: Starter project path: /Users/usmanumar/Desktop/usman/my_dbt_project/dbt_venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m20:16:03.000126 [info ] [MainThread]: 
+Your new dbt project "dbt_bq" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:16:03.000993 [info ] [MainThread]: Setting up your profile.
+[0m20:17:33.471544 [info ] [MainThread]: Profile dbt_bq written to /Users/usmanumar/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m20:17:33.547370 [debug] [MainThread]: Command `dbt init` succeeded at 20:17:33.544663 after 120.32 seconds
+[0m20:17:33.551789 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1054e7520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f0a0b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f092d0>]}
+[0m20:17:33.556174 [debug] [MainThread]: Flushing usage events
+[0m20:32:43.150574 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10732bbb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11251ee30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11251f550>]}
+
+
+============================== 20:32:43.153458 | 3bd9f240-5a80-4653-8cdc-fa9fd0568adb ==============================
+[0m20:32:43.153458 [info ] [MainThread]: Running with dbt=1.6.9
+[0m20:32:43.153768 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/usmanumar/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug --config-dir', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:32:43.154056 [info ] [MainThread]: To view your profiles.yml file, run:
+
+open /Users/usmanumar/.dbt
+[0m20:32:43.154366 [debug] [MainThread]: Command `dbt debug` succeeded at 20:32:43.154313 after 0.02 seconds
+[0m20:32:43.154537 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10732bbb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11251f760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11251f580>]}
+[0m20:32:43.154695 [debug] [MainThread]: Flushing usage events
